@@ -1,3 +1,3 @@
-from .bayes_supect import (
+from bayes_supect import (
   fvlikelihood,
 )
