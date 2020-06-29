@@ -13,7 +13,7 @@ setuptools.setup(
     long_description='README.md',
     url='https://github.com/Ana-c-ng/likelycause',
     packages=setuptools.find_packages(),
-    python_requires=">=3.5",
+    python_requires=">=2.7.10",
     install_requires=['scipy','sklearn','statsmodels'],
     classifiers=[
         # Trove classifiers
