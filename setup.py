@@ -9,7 +9,7 @@ setup(
     # Needed to actually package something
     packages=['likelycause'],
     # Needed for dependencies
-    install_requires=['scipy','scipy.stats', 'sklearn.preprocessing', 'statsmodels.distributions.empirical_distribution'],
+    install_requires=['scipy','sklearn', 'statsmodels'],
     # *strongly* suggested for sharing
     version='0.1',
     # The license can be anything you like
