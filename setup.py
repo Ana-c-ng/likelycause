@@ -1,7 +1,7 @@
 import setuptools
 
-with open('README.md') as f:
-    README = f.read()
+#with open('README.md') as f:
+#    README = f.read()
 
 setuptools.setup(
     author="Ana Garcia",
@@ -10,7 +10,7 @@ setuptools.setup(
     license="MIT",
     description='Likely caue has a clever way to identify suspicious',
     version='v0.0.1',
-    long_description=README,
+    long_description='README.md',
     url='https://github.com/Ana-c-ng/likelycause',
     packages=setuptools.find_packages(),
     python_requires=">=3.5",
